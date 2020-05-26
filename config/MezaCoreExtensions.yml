@@ -216,11 +216,11 @@ list:
     repo: https://github.com/wikimedia/mediawiki-extensions-StringFunctionsEscaped.git
     version: "{{ mediawiki_default_branch }}"
     legacy_load: true
-    #- name: WhoIsWatching
-    #- repo: https://github.com/wikimedia/mediawiki-extensions-WhoIsWatching.git
-    #- version: "{{ mediawiki_default_branch }}"
-    #- config: |
-    #-   $wgPageShowWatchingUsers = true;
+  - name: WhoIsWatching
+    repo: https://github.com/wikimedia/mediawiki-extensions-WhoIsWatching.git
+    version: "{{ mediawiki_default_branch }}"
+    config: |
+      $wgPageShowWatchingUsers = true;
     #- name: SemanticInternalObjects
     #- repo: https://github.com/wikimedia/mediawiki-extensions-SemanticInternalObjects.git
     #- version: "{{ mediawiki_default_branch }}"
