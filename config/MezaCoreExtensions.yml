@@ -221,6 +221,9 @@ list:
     version: "{{ mediawiki_default_branch }}"
     config: |
       $wgPageShowWatchingUsers = true;
+      # Set the following to either 'UserName' or 'RealName' to change how watching
+      # users are displayed.
+      $whoiswatching_nametype = 'UserName';
     #- name: SemanticInternalObjects
     #- repo: https://github.com/wikimedia/mediawiki-extensions-SemanticInternalObjects.git
     #- version: "{{ mediawiki_default_branch }}"
