@@ -226,10 +226,10 @@ list:
     version: "{{ mediawiki_default_branch }}"
     config: |
       $wgPageShowWatchingUsers = true;
-  - name: SemanticInternalObjects
-    repo: https://github.com/wikimedia/mediawiki-extensions-SemanticInternalObjects.git
-    version: "master"
-    legacy_load: true
+      #  - name: SemanticInternalObjects
+      #    repo: https://github.com/wikimedia/mediawiki-extensions-SemanticInternalObjects.git
+      #    version: "master"
+      #    legacy_load: true
     #  - name: SemanticDrilldown
     #    repo: https://github.com/wikimedia/mediawiki-extensions-SemanticDrilldown.git
     #    version: "master"
