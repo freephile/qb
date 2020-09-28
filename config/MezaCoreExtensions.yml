@@ -262,11 +262,11 @@ list:
   - name: Wiretap
     repo: https://github.com/enterprisemediawiki/Wiretap.git
     version: master 
-  - name: ApprovedRevs
-    repo: https://github.com/wikimedia/mediawiki-extensions-ApprovedRevs.git
-    version: master
-    config: |
-      $egApprovedRevsAutomaticApprovals = false;
+#  - name: ApprovedRevs
+#    repo: https://github.com/wikimedia/mediawiki-extensions-ApprovedRevs.git
+#    version: master
+#    config: |
+#      $egApprovedRevsAutomaticApprovals = false;
       #  - name: ImagesLoaded
       #    repo: https://github.com/enterprisemediawiki/ImagesLoaded.git
       #    version: tags/0.1.0
