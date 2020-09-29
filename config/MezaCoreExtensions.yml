@@ -191,9 +191,9 @@ list:
   - name: RevisionSlider
     repo: https://github.com/wikimedia/mediawiki-extensions-RevisionSlider.git
     version: "{{ mediawiki_default_branch }}"
-  - name: CollapsibleVector
-    repo: https://github.com/wikimedia/mediawiki-extensions-CollapsibleVector
-    version: "{{ mediawiki_default_branch }}"
+    #  - name: CollapsibleVector
+    #    repo: https://github.com/wikimedia/mediawiki-extensions-CollapsibleVector
+    #    version: "{{ mediawiki_default_branch }}"
   - name: SimpleMathJax
     repo: https://github.com/jamesmontalvo3/SimpleMathJax.git
     version: e94afaffcdde8d926b166fdd166162f9519beaa1
