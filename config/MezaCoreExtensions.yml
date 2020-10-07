@@ -226,6 +226,7 @@ list:
     version: "{{ mediawiki_default_branch }}"
     config: |
       $wgPageShowWatchingUsers = true;
+      $whoiswatching_nametype = 'UserName';
   - name: SemanticInternalObjects
     repo: https://github.com/wikimedia/mediawiki-extensions-SemanticInternalObjects.git
     version: "master"
