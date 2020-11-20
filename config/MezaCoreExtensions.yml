@@ -11,6 +11,9 @@ list:
       // Semantic MediaWiki Settings
       $smwgQMaxSize = 5000;
 
+      // Add the ability to have links in values
+      $smwgParserFeatures = $smwgParserFeatures | SMW_PARSER_LINV;
+
       // allows adding semantic properties to Templates themselves
       // (not just on pages via templates).
       $smwgNamespacesWithSemanticLinks[NS_TALK] = true;
