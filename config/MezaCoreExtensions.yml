@@ -78,6 +78,8 @@ list:
     config: |
       // In Maps 6.0+ you need to also load the extension
       wfLoadExtension( 'Maps' );
+      $egMapsDefaultService = 'leaflet';
+      $egMapsMapWidth = 500;
 
   - name: DisplayTitle
     repo: https://github.com/wikimedia/mediawiki-extensions-DisplayTitle.git
