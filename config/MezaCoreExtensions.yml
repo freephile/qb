@@ -139,7 +139,7 @@ list:
     version: "{{ mediawiki_default_branch }}"
   - name: InputBox
     repo: https://github.com/wikimedia/mediawiki-extensions-InputBox.git
-    version: "master"
+    version: "REL1_35"
   - name: ReplaceText
     repo: https://github.com/wikimedia/mediawiki-extensions-ReplaceText.git
     version: "master"
@@ -236,7 +236,7 @@ list:
     legacy_load: true
   - name: SemanticDrilldown
     repo: https://github.com/wikimedia/mediawiki-extensions-SemanticDrilldown.git
-    version: "master"
+    version: "REL1_34"
     legacy_load: true
   - name: Arrays
     repo: https://github.com/wikimedia/mediawiki-extensions-Arrays.git
